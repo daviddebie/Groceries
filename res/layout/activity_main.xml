@@ -11,7 +11,8 @@
         android:id="@+id/button_newlist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_newlist" />
+        android:text="@string/button_newlist"
+        android:onClick="newList" />
 
     <ListView
         android:id="@+id/listView1"

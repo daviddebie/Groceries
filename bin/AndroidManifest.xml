@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="nl.mprog.apps.Groceries.NewListActivity"
+            android:label="@string/title_activity_new_list" >
+        </activity>
+        <activity
+            android:name="nl.mprog.apps.Groceries.ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
     </application>
 
 </manifest>
